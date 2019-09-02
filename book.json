@@ -1,5 +1,19 @@
 {
     "title": "WHU Resume",
     "author": "Qi Cong",
-    "plugins": ["toc"]
+    "links" : {
+        "sidebar" : {
+            "Home" : "https://github.com/MineSelf2016?tab=repositories"
+        }
+    },
+    "plugins": ["toc", "github", "splitter", "expandable-chapters-small", "sectionx", "back-to-top-button", "todo"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/MineSelf2016/WhuResume"
+        },
+        "sectionx": {
+            "tag": "b"
+        }
+    }
+
 }
